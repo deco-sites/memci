@@ -1,1 +1,55 @@
-{"__resolveType":"site/sections/Header.tsx","navigation":{"links":[],"buttons":[]}}
+{
+  "__resolveType": "site/sections/Header.tsx",
+  "navigation": {
+    "links": [
+      {
+        "label": "Serviços",
+        "url": "/#"
+      },
+      {
+        "label": "Como Funciona",
+        "url": "/#"
+      },
+      {
+        "label": "Quem Somos"
+      },
+      {
+        "label": "Clientes"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Fale conosco",
+        "href": "/#"
+      }
+    ]
+  },
+  "social": {
+    "medias": [
+      {
+        "icon": "https://data.decoassets.com/memci/a2030fdc-f27c-490a-87b5-93097539cc89/bxl-facebook-circle.svg",
+        "alt": "Facebook",
+        "url": "/#"
+      },
+      {
+        "icon": "https://data.decoassets.com/memci/05763126-49f2-4fe2-a529-c1e768df0e96/bxl-instagram-alt.svg",
+        "url": "/#",
+        "alt": "Instagram"
+      },
+      {
+        "icon": "https://data.decoassets.com/memci/ff84c0e4-a6fa-43ec-b0a3-c7d96d625c67/linkedin-box-fill-1.svg",
+        "url": "/#",
+        "alt": "Linkedin"
+      },
+      {
+        "icon": "https://data.decoassets.com/memci/052c4793-773a-43e6-b8a3-9b104a893fbf/tabler-icon-brand-whatsapp.svg",
+        "url": "/#",
+        "alt": "Whatsapp"
+      }
+    ]
+  },
+  "logo": {
+    "src": "https://data.decoassets.com/memci/c9e1cf6c-6f3d-44fd-8cc1-59f86f294e24/Frame-357.svg",
+    "alt": "Memci Logo"
+  }
+}
