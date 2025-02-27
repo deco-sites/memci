@@ -42,8 +42,7 @@ const DEFAULT_IMAGE =
 export default function ImageWithParagraph({
   title = "Here's an intermediate size heading you can edit",
   titlePlacement = "left",
-  description =
-    "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
+  description = "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
   descriptionPlacement = "left",
   tagline = "Tagline",
   image = DEFAULT_IMAGE,
@@ -77,13 +76,17 @@ export default function ImageWithParagraph({
           />
         </div>
         <div class="w-full md:w-1/2 space-y-2 md:space-y-4 md:max-w-xl gap-4 z-10">
-          <p class="text-sm font-semibold">
-            {tagline}
-          </p>
-          <p class="text-4xl leading-snug" style={`text-align:${titlePlacement}`}>
+          <p class="text-sm font-semibold">{tagline}</p>
+          <p
+            class="text-4xl leading-snug"
+            style={`text-align:${titlePlacement}`}
+          >
             {title}
           </p>
-          <p class="leading-normal" style={`text-align:${descriptionPlacement}`}>
+          <p
+            class="leading-normal"
+            style={`text-align:${descriptionPlacement}`}
+          >
             {description}
           </p>
           <div class={`flex gap-3 pt-4 justify-${CTA_PLACEMENT[ctaPlacement]}`}>
@@ -94,7 +97,7 @@ export default function ImageWithParagraph({
                 href={item?.href}
                 target={item?.href.includes("http") ? "_blank" : "_self"}
                 class={`font-normal btn btn-primary
-                  ${!item.style || item.style == "Outline" && "btn-outline"}
+                  ${!item.style || (item.style == "Outline" && "btn-outline")}
                   ${item.style == "Ghost" && "btn-ghost"}
                 `}
               >

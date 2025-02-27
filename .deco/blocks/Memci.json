@@ -19,13 +19,24 @@
     "base-100": "#fafbfc",
     "primary": "#0870FB",
     "secondary": "#002849",
-    "tertiary": "#0870FB"
+    "tertiary": "#0870FB",
+    "neutral": "#293331"
   },
   "complementaryColors": {
     "base-content": "#051163",
     "primary-content": "#ffffff",
     "secondary-content": "#ffffff",
     "tertiary-content": "#ffffff",
-    "neutral-content": "#0870FB"
+    "neutral-content": "#0870FB",
+    "base-200": "#000000"
+  },
+  "font": {
+    "__resolveType": "website/loaders/fonts/googleFonts.ts",
+    "fonts": [
+      {
+        "variations": [],
+        "family": "DM Sans"
+      }
+    ]
   }
 }

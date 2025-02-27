@@ -15,6 +15,34 @@
         "image": "https://data.decoassets.com/memci/c74cf063-8220-4e7f-871e-8648eb6e3299/Frame-342.png",
         "favicon": "https://data.decoassets.com/memci/59487d22-7ce9-4748-bac8-78496f093c83/Union.svg"
       }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Hero.tsx",
+        "title": "<p>A sua empresa enfrenta problemas para prospectar potenciais clientes?</p>",
+        "description": "Criamos um mailing estratégico com campos indispensáveis para a sua equipe de vendas e adicionamos campos extras para obter dados específicos para maximizar a prospecção de novos clientes.",
+        "cta": [
+          {
+            "text": "Quero começar agora!",
+            "href": "/"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Hero.tsx",
+        "title": "<p>Como funcionam as nossas pesquisas?</p>",
+        "description": "<p>Oferecemos pesquisas importantes para inteligência comercial, como satisfação do cliente, análise de concorrentes e mapeamento de mercado.</p><p>Para isso, desenvolvemos nossa metodologia própria e trabalhamos a partir dos seguintes passos: definição do problema e público, elaboração de questionários e análise de resultados com relatórios detalhados.</p><p>Assim, sua empresa tem os dados e insights necessários para atuar de maneira estratégica, com inteligência de mercado e com foco em resultados.</p>",
+        "cta": [
+          {
+            "text": "Quero começar agora!",
+            "href": "/"
+          }
+        ]
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
