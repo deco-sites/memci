@@ -15,6 +15,7 @@ export interface Props {
    */
   title?: string;
   /**
+   * @format rich-text
    * @default This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.
    */
   description?: string;
@@ -30,8 +31,7 @@ const PLACEMENT = {
 
 export default function HeroFlats({
   title = "Click here to tweak this text however you want.",
-  description =
-    "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
+  description = "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
   image,
   placement = "left",
   cta = [
@@ -43,7 +43,7 @@ export default function HeroFlats({
     <nav class="lg:container lg:mx-auto mx-4">
       <div class="flex flex-col items-center gap-8">
         <div
-          class={`flex w-full xl:container xl:mx-auto py-20 mx-5 md:mx-10 z-10 ${
+          class={`flex w-full xl:container xl:mx-auto py-20 md:mx-10 z-10 ${
             image
               ? PLACEMENT[placement]
               : "flex-col items-center justify-center text-center"
@@ -61,22 +61,24 @@ export default function HeroFlats({
             />
           )}
           <div
-            class={`mx-6 lg:mx-auto lg:w-full space-y-4 gap-4 ${
+            class={`max-w-[805px] lg:mx-auto lg:w-full space-y-4 gap-4 ${
               image
                 ? "lg:w-1/2 lg:max-w-xl"
                 : "flex flex-col items-center justify-center lg:max-w-3xl"
             }`}
           >
             <div
-              class="inline-block lg:text-[80px] text-4xl leading-none font-medium"
+              class="inline-block lg:text-[68px] text-[32px] leading-none font-medium text-secondary"
               dangerouslySetInnerHTML={{
                 __html: title,
               }}
-            >
-            </div>
-            <p class="text-lg md:text-md leading-[150%]">
-              {description}
-            </p>
+            ></div>
+            <p
+              class="md:text-xl leading-[150%] text-neutral text-base"
+              dangerouslySetInnerHTML={{
+                __html: description,
+              }}
+            />
             <div class="flex items-center gap-3">
               {cta?.map((item) => (
                 <a
@@ -84,7 +86,7 @@ export default function HeroFlats({
                   id={item?.id}
                   href={item?.href}
                   target={item?.href.includes("http") ? "_blank" : "_self"}
-                  class={`font-normal btn btn-primary ${
+                  class={`btn btn-primary rounded-full font-medium ${
                     item.outline && "btn-outline"
                   }`}
                 >
