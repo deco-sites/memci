@@ -1,14 +1,14 @@
 {
   "seo": {
     "type": "website",
-    "title": "Landing",
+    "title": "Memci",
     "jsonLDs": [],
     "noIndexing": false,
-    "description": "Improve your page performance with deco.cx",
-    "titleTemplate": "Landing | deco.cx",
-    "descriptionTemplate": "%s | Deco.cx",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/0fba8a8c-ee79-47e1-8f9d-863658d056cc",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/1350f37f-88ab-4cf1-bcf6-c386bcf8b238"
+    "description": "Alcance clientes e impulsione suas vendas com inteligência de mercado e listas B2B!",
+    "titleTemplate": "Memci",
+    "descriptionTemplate": "%s | Memci",
+    "favicon": "https://data.decoassets.com/memci/59487d22-7ce9-4748-bac8-78496f093c83/Union.svg",
+    "image": "https://data.decoassets.com/memci/c74cf063-8220-4e7f-871e-8648eb6e3299/Frame-342.png"
   },
   "global": [
     {

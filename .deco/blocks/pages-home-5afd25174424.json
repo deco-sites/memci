@@ -4,6 +4,17 @@
   "sections": [
     {
       "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/sections/Seo/SeoV2.tsx",
+        "title": "Memci",
+        "description": "Alcance clientes e impulsione suas vendas com inteligência de mercado e listas B2B!",
+        "type": "website",
+        "image": "https://data.decoassets.com/memci/c74cf063-8220-4e7f-871e-8648eb6e3299/Frame-342.png",
+        "favicon": "https://data.decoassets.com/memci/59487d22-7ce9-4748-bac8-78496f093c83/Union.svg"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
