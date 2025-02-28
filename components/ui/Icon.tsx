@@ -42,6 +42,7 @@ export type AvailableIcons =
   | "Visa"
   | "WhatsApp"
   | "XMark"
+  | "Graphic"
   | "Close-icon"
   | "Zoom";
 

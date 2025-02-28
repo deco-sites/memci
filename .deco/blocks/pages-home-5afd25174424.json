@@ -8,6 +8,12 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Form.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "website/sections/Seo/SeoV2.tsx",
         "title": "Memci",
         "description": "Alcance clientes e impulsione suas vendas com inteligência de mercado e listas B2B!",
