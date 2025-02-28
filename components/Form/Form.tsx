@@ -5,7 +5,7 @@ export interface Props {
 
 export default function FormContent({ formTitle, buttonText }: Props) {
   return (
-    <div className="w-full md:w-1/2 bg-[#F1F6F8] rounded-lg shadow-lg p-6 md:p-8">
+    <div className="w-full md:w-1/2 bg-[#F1F6F8] rounded-lg shadow-lg p-4 md:p-8">
       <h2 className="text-xl font-semibold text-center mb-6 text-secondary">
         {formTitle}
       </h2>
